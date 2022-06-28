@@ -4,6 +4,8 @@ import ComponentInsideComponent from './topics/component/ComponentInsideComponen
 import FunctionalComponent from './topics/component/FunctionalComponent';
 import ClickEvent from './topics/Event/ClickEvent';
 import GetInputBoxData from './topics/Event/GetInputBoxData';
+import HideShow from './topics/Event/HideShow';
+import Toggle from './topics/Event/Toggle';
 import PropsWithClassComponent from './topics/Props/PropsWithClassComponent';
 import PropsWithFunctionalComponent from './topics/Props/PropsWithFunctionalComponent';
 import StateInClassComponent from './topics/State/StateInClassComponent';
@@ -20,7 +22,9 @@ function App() {
      {/*<StateInClassComponent/> */}
     {/* <PropsWithFunctionalComponent name="Kamdev"/> */}
     {/* <PropsWithClassComponent name={"Kamdev"} college="LPU" city="Patna"/> */}
-    <GetInputBoxData/>
+    {/* <GetInputBoxData/> */}
+    {/* <HideShow/> */}
+    {/* <Toggle/> */}
     </div>
   );
 }

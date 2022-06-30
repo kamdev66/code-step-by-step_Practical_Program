@@ -1,7 +1,11 @@
 import './App.css';
 import ClassComponent from './topics/component/ClassComponent';
 import ComponentInsideComponent from './topics/component/ComponentInsideComponent';
+import UseOfControlledComp from './topics/component/ControlledComponent/UseOfControlledComp';
 import FunctionalComponent from './topics/component/FunctionalComponent';
+import HOC from './topics/component/HOC/HOC';
+import PureComp from './topics/component/pure component/PureComponents';
+import UseOfUncontrolledComp from './topics/component/UncontrolledComponent/UseOfUncontrolledComp';
 import ConditionalRendering from './topics/ConditionalRendering';
 import ClickEvent from './topics/Event/ClickEvent';
 import BasicForm from './topics/Event/Form/BasicForm';
@@ -11,6 +15,9 @@ import HideShow from './topics/Event/HideShow';
 import Toggle from './topics/Event/Toggle';
 import UseEffect from './topics/hooks/useEffect/UseEffect';
 import UseEffectwithCondition from './topics/hooks/useEffect/UseEffectwithCondition';
+import UseOfUseMemo from './topics/hooks/useMemo/UseOfUseMemo';
+import ParentForwardRef from './topics/hooks/useRef/ForwardRef/ParentForwardRef';
+import UseOfUseRef from './topics/hooks/useRef/UseOfUseRef';
 import Contructor from './topics/lifecycle methods/Contructor';
 import ParentPassFunc from './topics/Props/passFunctionAsProps/ParentPassFunc';
 import PassFunctionAsProps from './topics/Props/passFunctionAsProps/PassFunctionAsProps';
@@ -41,7 +48,14 @@ function App() {
       {/* <Contructor/> */}
       {/* <UseEffect/> */}
       {/* <UseEffectwithCondition/> */}
-      <ParentComponent/>
+       {/* <ParentComponent/> */}
+       {/* <PureComp/>  */}
+       {/* <UseOfUseMemo/> */}
+        {/*  <UseOfUseRef/> */}
+        {/* <ParentForwardRef/> */}
+        {/* <UseOfControlledComp/> */}
+        {/* <UseOfUncontrolledComp/> */}
+        <HOC/>
     </div>
   );
 }
